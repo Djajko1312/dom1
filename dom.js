@@ -18,3 +18,22 @@ for(let i=0; i < listItems.length; i++)
     }
     else listItems[i].style.backgroundColor = "#200E6F";
 }
+
+
+//console.log(document.getElementsByClassName("title"))
+
+let title = document.getElementsByClassName("title");
+
+console.log(title)
+
+console.dir(title[1])
+
+title[1].textContent = "Nesto"
+
+listItems[3].textContent = "cetvrrti"
+listItems[3].style.backgroundColor = "red"
+
+document.querySelector("#random-elemnt p").style.backgroundColor = "red"
+
+
+console.log(document.querySelectorAll("list-item"))
